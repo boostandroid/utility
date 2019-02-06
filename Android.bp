@@ -2,4 +2,8 @@ cc_library_headers {
     name: "libboost_utility",
     export_include_dirs: ["include"],
     vendor_available: true,
+    header_libs: [
+        "libboost_core",
+        "libboost_mpl",
+    ],
 }
